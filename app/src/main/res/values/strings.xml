@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">PPDB PPITIS 2022/2023</string>
+    <string name="current_version">2.14</string>
+    <string name="pap">
+        Dengan mengklik Register berarti anda setuju dengan <u>ketentuan</u> dan <u>kebijakan privasi kami</u>.
+    </string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="mobno">Mobile No.</string>
+    <string name="reg_no">Reg</string>
+
+    <string-array name="loading">
+        <item>Checking connection.</item>
+        <item>Checking connection..</item>
+        <item>Checking connection...</item>
+        <item>Checking connection....</item>
+    </string-array>
+
+    <string-array name="info_profile">
+        <item>1. Cek data calon santri disini</item>
+        <item>2. Cek data pembayaran</item>
+        <item>3. Cek kelulusan calon santri</item>
+    </string-array>
+
+
+    <string name="ket_fill_biodata">
+        <i>Note : Biodata bisa dilengkapi setelah melakukan pembayaran registrasi</i>
+    </string>
+    <string name="profileku">
+        <u>profileku</u> [klik]
+    </string>
+
+    <string-array name="provinsi">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Kepulauan Riau</item>
+        <item>Jambi</item>
+        <item>Sumatera Selatan</item>
+        <item>Kepulauan Bangka Belitung</item>
+        <item>Bengkulu</item>
+        <item>Lampung</item>
+        <item>DKI Jakarta</item>
+        <item>Banten</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>DI Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Tengah</item>
+        <item>Provinsi Kalimantan Selatan</item>
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Sulawesi Utara</item>
+        <item>Gorontalo</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Barat</item>
+        <item>Provinsi Sulawesi Selatan</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+        <item>Luar Indonesia</item>
+    </string-array>
+    <string-array name="merk_vaksin">
+        <item>Belum Vaksin</item>
+        <item>Astrazeneca (dosis 1)</item>
+        <item>Astrazeneca (dosis 1 dan 2)</item>
+        <item>Astrazeneca (dosis 1, 2 dan 3)</item>
+        <item>Sinovac (dosis 1)</item>
+        <item>Sinovac (dosis 1 dan 2)</item>
+        <item>Sinovac (dosis 1, 2 dan 3)</item>
+        <item>Sinopharm (dosis 1)</item>
+        <item>Sinopharm (dosis 1 dan 2)</item>
+        <item>Sinopharm (dosis 1, 2 dan 3)</item>
+        <item>Bio Farma (dosis 1)</item>
+        <item>Bio Farma (dosis 1 dan 2)</item>
+        <item>Bio Farma (dosis 1, 2 dan 3)</item>
+        <item>Moderna (dosis 1)</item>
+        <item>Moderna (dosis 1 dan 2)</item>
+        <item>Moderna (dosis 1, 2 dan 3)</item>
+        <item>Pfizer (dosis 1)</item>
+        <item>Pfizer (dosis 1 dan 2)</item>
+        <item>Pfizer (dosis 1, 2 dan 3)</item>
+        <item>Sputnik V (dosis 1)</item>
+        <item>Sputnik V (dosis 1 dan 2)</item>
+        <item>Sputnik V (dosis 1, 2 dan 3)</item>
+        <item>Janssen (dosis 1)</item>
+        <item>Janssen (dosis 1 dan 2)</item>
+        <item>Janssen (dosis 1, 2 dan 3)</item>
+        <item>Convidecia (dosis 1)</item>
+        <item>Convidecia (dosis 1 dan 2)</item>
+        <item>Convidecia (dosis 1, 2 dan 3)</item>
+        <item>Merk lain (dosis 1)</item>
+        <item>Merk lain (dosis 1 dan 2)</item>
+        <item>Merk lain (dosis 1, 2 dan 3)</item>
+    </string-array>
+    <string-array name="unit_sekolah">
+        <item>SDIT Fajar Ilahi Batu Aji</item>
+        <item>SMPIT Fajar Ilahi Batu Aji</item>
+        <item>SDIT Fajar Ilahi Bengkong</item>
+        <item>SDIT Fajar Ilahi Sei. Beduk</item>
+        <item>SMPIT fajar ilahi Sei.Beduk</item>
+        <item>SD AIS</item>
+        <item>SMP AIS</item>
+        <item>SMP Imam Syafi’i</item>
+        <item>SWTQ Imam Syafi’i</item>
+    </string-array>
+
+</resources>

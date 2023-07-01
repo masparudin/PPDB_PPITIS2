@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ly_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_ppit"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="بسم الله الرحمن الرحيمِ"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:fontFamily="@font/helvetica"
+            android:text="Selamat datang di aplikasi PPDB"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helvetica"
+            android:text="PPIT Imam Syafi'i Batam"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/ly_top"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ly_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/box_shape">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/helvetica"
+            android:text="Daftar dan masuk dengan sekali klik!"/>
+
+        <LinearLayout
+            android:id="@+id/ly_signup_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button_style_white"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:padding="8dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/google_logo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DAFTAR DAN MASUK"
+                android:layout_gravity="center"
+                android:fontFamily="@font/helvetica"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView
+            android:textSize="12.0sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:layout_marginRight="5.0dip"
+            android:text="Dengan daftar dan masuk anda berarti telah menyetujui " />
+        <TextView
+            android:textColor="@color/blue_500"
+            android:id="@+id/text_policy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:text="Kebijakan Privasi Kami" />
+        <TextView
+            android:id="@+id/text_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/helvetica"
+            android:text="Gel 1 Pendaftaran 19-25 Des 2021 \n         (Khusus sekolah di bawah Yayasan Al-Kahfi)\n\nGel 2 Pendaftaran 26 Des 2021 - 2 Jan 2022\n         (Sekolah di luar Yayasan Al-Kahfi)"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

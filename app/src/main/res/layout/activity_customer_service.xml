@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CustomerService"
+    android:layout_height="fill_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/mytoolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_transparent"
+        android:minHeight="?actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/mytoolbar"
+        android:layout_marginTop="5.0dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5.0dip"
+            android:weightSum="2.0">
+
+            <LinearLayout
+                android:id="@id/ly_smpit"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/green_box_shape"
+                android:orientation="vertical"
+                android:padding="5.0dip">
+
+                <ImageView
+                    android:layout_width="100.0dip"
+                    android:layout_height="100.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5.0dip"
+                    android:src="@drawable/cs" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ust. Asrul"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoLink="phone"
+                    android:text="+6285263412965"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/ly_smait"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/green_box_shape"
+                android:orientation="vertical"
+                android:padding="5.0dip">
+
+                <ImageView
+                    android:layout_width="100.0dip"
+                    android:layout_height="100.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5.0dip"
+                    android:src="@drawable/cs" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ust. Roni"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoLink="phone"
+                    android:text="+6285130313434"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5.0dip"
+            android:weightSum="2.0">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/green_box_shape"
+                android:orientation="vertical"
+                android:padding="5.0dip">
+
+                <ImageView
+                    android:layout_width="100.0dip"
+                    android:layout_height="100.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5.0dip"
+                    android:src="@drawable/cs" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ust. Hadi"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoLink="phone"
+                    android:text="+6285272285530"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/green_box_shape"
+                android:orientation="vertical"
+                android:padding="5.0dip">
+
+                <ImageView
+                    android:layout_width="100.0dip"
+                    android:layout_height="100.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5.0dip"
+                    android:src="@drawable/cs" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ust. Rohim"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoLink="phone"
+                    android:text="+6285200600060"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

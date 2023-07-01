@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WebUjian">
+    <LinearLayout
+        android:id="@+id/ly_kode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#37CCFA"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:text="Nomor ID : "
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/text_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:letterSpacing="0.20"
+            android:textStyle="bold"
+            android:text="00001"
+            android:layout_gravity="center"
+            android:shadowColor="#070001"
+            android:shadowRadius="1.5"
+            android:shadowDx="1"
+            android:shadowDy="1"/>
+        <ImageView
+            android:id="@+id/img_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_content_copy_24"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ly_ket"
+        android:layout_below="@id/ly_kode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#84DBF6"
+        android:padding="3dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FA4911"
+            android:text="Pastikan semua soal sudah dijawab sebelum meninggalkan halaman ini! "
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webviewBerita"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_ket" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tomer:fadingtextview:2.6@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fe7f54e632ffceeae1d50caa20494469/transformed/jetified-fadingtextview-2.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/df83d89b44722990c01e2a81e05d9fa5/transformed/jetified-fadingtextview-2.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/beb87608da045471e42158f5837d1fa1/transformed/jetified-fadingtextview-2.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8a6e1db46084918afcd10558de3b23e8/transformed/jetified-fadingtextview-2.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ca622a8535caa32ddcaf4c5a7073d21a/transformed/jetified-fadingtextview-2.6/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fe7f54e632ffceeae1d50caa20494469/transformed/jetified-fadingtextview-2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fe7f54e632ffceeae1d50caa20494469/transformed/jetified-fadingtextview-2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fe7f54e632ffceeae1d50caa20494469/transformed/jetified-fadingtextview-2.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/df83d89b44722990c01e2a81e05d9fa5/transformed/jetified-fadingtextview-2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/df83d89b44722990c01e2a81e05d9fa5/transformed/jetified-fadingtextview-2.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/df83d89b44722990c01e2a81e05d9fa5/transformed/jetified-fadingtextview-2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/beb87608da045471e42158f5837d1fa1/transformed/jetified-fadingtextview-2.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/beb87608da045471e42158f5837d1fa1/transformed/jetified-fadingtextview-2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/beb87608da045471e42158f5837d1fa1/transformed/jetified-fadingtextview-2.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8a6e1db46084918afcd10558de3b23e8/transformed/jetified-fadingtextview-2.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8a6e1db46084918afcd10558de3b23e8/transformed/jetified-fadingtextview-2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8a6e1db46084918afcd10558de3b23e8/transformed/jetified-fadingtextview-2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ca622a8535caa32ddcaf4c5a7073d21a/transformed/jetified-fadingtextview-2.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ca622a8535caa32ddcaf4c5a7073d21a/transformed/jetified-fadingtextview-2.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ca622a8535caa32ddcaf4c5a7073d21a/transformed/jetified-fadingtextview-2.6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tomer/fadingtextview/2.6/e5a298efe9c6bd268281e9c9e728961ae55e9dea/fadingtextview-2.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tomer/fadingtextview/2.6/11ca4c7f72ef1530c47942eeeb2e86307c613dfc/fadingtextview-2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

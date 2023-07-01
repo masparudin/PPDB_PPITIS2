@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mascode.ppdbppitis2">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Testing"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".JoinWag2"
+            android:exported="false" />
+        <activity
+            android:name=".JoinWag1"
+            android:exported="false" />
+        <activity
+            android:name=".WebUjian"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DownloadUpdateApk"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListNotifikasi"
+            android:exported="false"
+            android:label="Notifikasi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Penghargaan"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JoinTelegram"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KirimBuktiTf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfoPembayaran"
+            android:label="Informasi Pembayaran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomerService"
+            android:label="Bantuan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PraRegister"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FormDaftar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PilihJenisKelamin"
+            android:label="Pilih Gender"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailPengumuman"
+            android:exported="false" />
+        <activity
+            android:name=".Detail_Pendaftar"
+            android:label="Detail Pendaftar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrivacyPolicy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlurPendaftaran"
+            android:label="Alur Pendaftaran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListPendaftarUjian"
+            android:label="Ujian Seleksi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebTentangKami"
+            android:label="Tentang Kami"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Informasi"
+            android:label="Informasi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListPendaftar"
+            android:label="false" />
+        <activity
+            android:name=".Profileku"
+            android:label="Profileku"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PilihUnitSekolah"
+            android:label="Pilih Unit Sekolah"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MainMenu"
+            android:label="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NoInternetConnection"
+            android:label="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HalamanUpdate"
+            android:label="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="PPDB PPITIS 2022/2023"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

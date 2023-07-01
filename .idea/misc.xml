@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/black_box_shape.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable-v24/blue_box_shape.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/blue_button.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/drawable-v24/box_shape.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/box_shape_warning.xml" value="0.26974358974358975" />
+        <entry key="app/src/main/res/drawable-v24/button_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/button_style_white.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/buttonstyle2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/buttonstylered.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/cardview1.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/drawable-v24/centre_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/centre_background2.xml" value="0.21875" />
+        <entry key="app/src/main/res/drawable-v24/curve_bottom_l_r.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/curve_l_r.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient1.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient3.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_bg2.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable-v24/gradient_bg3.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable-v24/gradient_blue.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_blue2.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable-v24/gradient_blue3.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable-v24/gradient_blue5.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable-v24/gradient_shape1.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_shape2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_shape3.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_shape4.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_shape5.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_shape6.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_shape7.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/gradient_shape8.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/green_box_shape.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable-v24/pink_box_shape.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/rounded_l_b.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/rounded_r_b.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/yellow_box_shape.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable/background_dialog.xml" value="0.25462962962962965" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/activity_alur_pendaftaran.xml" value="0.1328125" />
+        <entry key="app/src/main/res/layout/activity_customer_service.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_detail_pendaftar.xml" value="0.3476165883796676" />
+        <entry key="app/src/main/res/layout/activity_detail_pengumuman.xml" value="0.15760869565217392" />
+        <entry key="app/src/main/res/layout/activity_download_update_apk.xml" value="0.18795289855072464" />
+        <entry key="app/src/main/res/layout/activity_form_daftar.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_halaman_update.xml" value="0.10546875" />
+        <entry key="app/src/main/res/layout/activity_info_pembayaran.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_informasi.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_join_telegram.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_join_wag1.xml" value="0.22644927536231885" />
+        <entry key="app/src/main/res/layout/activity_join_wag2.xml" value="0.22644927536231885" />
+        <entry key="app/src/main/res/layout/activity_kirim_bukti_tf.xml" value="0.13269927536231885" />
+        <entry key="app/src/main/res/layout/activity_list_notifikasi.xml" value="0.20516304347826086" />
+        <entry key="app/src/main/res/layout/activity_list_pendaftar_ujian.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.25684482150801474" />
+        <entry key="app/src/main/res/layout/activity_main_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_no_internet_connection.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_penghargaan.xml" value="0.2105978260869565" />
+        <entry key="app/src/main/res/layout/activity_pilih_jenis_kelamin.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_pilih_unit_sekolah.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_pra_register.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_privacy_policy.xml" value="0.1328125" />
+        <entry key="app/src/main/res/layout/activity_profileku.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_web_tentang_kami.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_web_ujian.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/content_form.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.15760869565217392" />
+        <entry key="app/src/main/res/layout/item_pendaftar_ujian.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/menu_item_notification.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/menu_item_pendaftar.xml" value="0.35420506246617667" />
+        <entry key="app/src/main/res/layout/toast_layout.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/toast_layout_red.xml" value="0.1328125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.112109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

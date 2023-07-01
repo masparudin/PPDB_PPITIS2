@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailPengumuman">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/grey_transparent"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curve_l_r"
+        android:layout_marginBottom="1dp"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengumuman Kelulusan"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:id="@+id/text_judul"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/curve_bottom_l_r"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_body"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="25dp"
+            android:text="Terkait permintaan kamu, ada 2 hal yang bisa dilakukan.
+
+        Pertama, jika kamu masih login di akun Gojek, silakan ubah nomor HP-mu dengan cara:\n
+        1. Klik ikon Profil Saya di sebelah kanan atas beranda aplikasi Gojek\n
+        2. Klik ikon pensil\n
+        3. Masukkan nomor HP baru yang belum terdaftar di akun Gojek\n
+        4. Klik Simpan"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Hormat Kami,"
+            android:layout_marginBottom="35dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin PPIT Imam Syafi'i"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_waktu"
+            android:textColor="@color/grey"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

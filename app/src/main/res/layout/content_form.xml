@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollFeed"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FormDaftar"
+    tools:showIn="@layout/activity_form_daftar"
+    android:background="@drawable/centre_background"
+    android:focusableInTouchMode="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/personalDetailsCard"
+        style="@style/centreLocatorCardDesign"
+        app:cardCornerRadius="16dp"
+        android:layout_marginTop="40dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="false"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <ImageView
+                android:id="@+id/img_unit"
+                android:src="@drawable/user"
+                android:layout_width="100dp"
+                android:layout_height="85dp"
+                android:layout_marginBottom="7dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:id="@+id/text_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ikhwan"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtNama"
+                    style="@style/modifiedEditText"
+                    android:hint="Nama Lengkap Calon Santri"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputTempatLahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtTempatLahir"
+                    style="@style/modifiedEditText"
+                    android:hint="Tempat lahir"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Tanggal Lahir"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:id="@+id/txtInputTanggalLahir"
+                android:layout_width="wrap_content"
+                android:clickable="true"
+                android:drawableLeft="@drawable/ic_baseline_date_range_24"
+                android:drawablePadding="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Pilih Tanggal Lahir"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+            <View
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/light_blue_500"/>
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:text="Asal Sekolah (Yayasan Al Kahfi)"-->
+<!--                android:textColor="@color/colorPrimaryDark"-->
+<!--                android:layout_marginBottom="10dp"/>-->
+<!--            <Spinner-->
+<!--                android:id="@+id/sp_unit_sekolah"-->
+<!--                android:entries="@array/unit_sekolah"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"></Spinner>-->
+
+<!--            <View-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="2dp"-->
+<!--                android:background="@color/light_blue_500"/>-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputAsalSekolah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtAsalSekolah"
+                    style="@style/modifiedEditText"
+                    android:hint="Asal Sekolah" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Prestasi menjadi bahan pertimbangan kami dalam penerimaan santri. Min : tingkat kelurahan. Sertifikat dibawa pada saat ujian seleksi"
+                android:textSize="9sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/orange"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputPrestasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtPrestasi"
+                    style="@style/modifiedEditText"
+                    android:hint="Prestasi"
+                    android:text="Tidak Ada"
+                    android:inputType="textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:id="@+id/txtInputVaksinasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Keterangan Vaksinasi Calon Santri"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/sp_vaksin"
+                android:entries="@array/merk_vaksin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <View
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/light_blue_500"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputAyah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtAyah"
+                    style="@style/modifiedEditText"
+                    android:hint="Nama Ayah" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputIbu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtIbu"
+                    style="@style/modifiedEditText"
+                    android:hint="Nama Ibu"
+                    android:inputType="textMultiLine"
+                    android:minLines="2" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputTelepon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtTelepon"
+                    style="@style/modifiedEditText"
+                    android:hint="Nomor Handphone/WA"
+                    android:singleLine="true"
+                    android:inputType="phone"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtAlamat"
+                    style="@style/modifiedEditText"
+                    android:hint="Alamat Domisili"
+                    android:inputType="textMultiLine" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputKelurahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtKelurahan"
+                    style="@style/modifiedEditText"
+                    android:hint="Kelurahan" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputKecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtKecamatan"
+                    style="@style/modifiedEditText"
+                    android:hint="Kecamatan"
+                    android:inputType="textMultiLine"
+                    android:minLines="2" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/txtInputProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Pilih Provinsi"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/sp_provinsi"
+                android:entries="@array/provinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <View
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/light_blue_500"/>
+
+            <CheckBox
+                android:id="@+id/cbP1"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kami siap menerima sanksi jika informasi yang kami berikan palsu"/>
+            <View
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/azur"/>
+            <CheckBox
+                android:id="@+id/cbP2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kami sebagai orang tua, siap mengikuti kegiatan rutin parenting yang diadakan oleh PPIT Imam Syafi'i"
+                android:layout_marginBottom="15dp"/>
+
+            <LinearLayout
+                android:background="@drawable/box_shape_warning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/helvetica"
+                    android:padding="5dp"
+                    android:textSize="11sp"
+                    android:text="Warning : Mohon pastikan kembali data yang anda masukkan sebelum menekan tombol kirim di bawah, kesalahan pada pengisian data akan sulit diperbaiki"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/centre_button"
+                android:text="Kirim"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.core.widget.NestedScrollView>

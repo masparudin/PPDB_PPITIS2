@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.firebaseui:firebase-ui-database:4.3.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa91f3a8d9b5e66f46b305c5115192ac/transformed/firebase-ui-database-4.3.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad0ebfb4e316119d7d617a2d30379f01/transformed/jetified-firebase-ui-database-4.3.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ad0ebfb4e316119d7d617a2d30379f01/transformed/jetified-firebase-ui-database-4.3.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad0ebfb4e316119d7d617a2d30379f01/transformed/jetified-firebase-ui-database-4.3.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2d8e9b8d11a9c7e5bc078e7ef18459dd/transformed/jetified-firebase-ui-database-4.3.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2d8e9b8d11a9c7e5bc078e7ef18459dd/transformed/jetified-firebase-ui-database-4.3.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2d8e9b8d11a9c7e5bc078e7ef18459dd/transformed/jetified-firebase-ui-database-4.3.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ca2c5b8cc2ad69c45d0700ff6789496d/transformed/jetified-firebase-ui-database-4.3.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ca2c5b8cc2ad69c45d0700ff6789496d/transformed/jetified-firebase-ui-database-4.3.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-database/4.3.2/4e3e2b4e511da231be1bc2544422565ac4312513/firebase-ui-database-4.3.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-database/4.3.2/1645aac3753f2371393a22455e2f262def9bc4bf/firebase-ui-database-4.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

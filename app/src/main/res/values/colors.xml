@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0B6058</color>
+
+    <color name="primaryTextColor">#00a5ff</color>
+
+    <!--color untuk gradient tansition-->
+    <color name="purple_500">#9c27b0</color>
+    <color name="deep_purple_500">#673ab7</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="blue_500">#2196f3</color>
+    <color name="cyan_500">#00bcd4</color>
+    <color name="light_blue_500">#03a9f4</color>
+    <color name="bg">#C9DFCA</color>
+    <color name="papaya">#BF816D</color>
+    <color name="pink">#EA9EB8</color>
+    <color name="green_transparent">#B6CFB7</color>
+    <color name="grey_transparent">#CDE4E4E4</color>
+    <color name="red">#F80202</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="orange">#FF5722</color>
+    <color name="white">#F7F7F8</color>
+    <color name="grey">#A2A2C7</color>
+    <color name="black">#00070C</color>
+    <color name="azur">#E2F0FA</color>
+    <color name="text_harga">#ff7f00</color>
+    <color name="colorLes">#77d8f5</color>
+    <color name="colorButton">#a4e4f7</color>
+    <color name="colorEditText">#d4eef5</color>
+    <color name="material_green_600">#43A047</color>
+    <color name="material_green_500">#4CAF50</color>
+    <color name="material_green_700">#388E3C</color>
+    <color name="material_green_a200">#69F0AE</color>
+    <color name="material_lime_a800">#AFB42B</color>
+    <color name="material_lime_50">#F9FBE7</color>
+    <color name="material_purple_a700">#AA00FF</color>
+    <color name="material_purple_500">#9C27B0</color>
+    <color name="gradient_start">#5770f3</color>
+    <color name="gradient_end">#8e5aeb</color>
+    <color name="profile_desc">#D1D1FF</color>
+    <color name="bg_meta_container">#7C85B8</color>
+    <color name="profile_default_tint">#e0e0e0</color>
+</resources>

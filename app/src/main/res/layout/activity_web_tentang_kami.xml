@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WebTentangKami">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/mytoolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_transparent"
+        android:minHeight="?actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/mytoolbar">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/sv"
+            android:orientation="vertical"
+            android:padding="15.0dip">
+
+            <ImageView
+                android:layout_width="120.0dip"
+                android:layout_height="120.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20.0dip"
+                android:src="@drawable/logo_ppit" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30.0dip"
+                android:justificationMode="inter_word"
+                android:text="Aplikasi Persiapan Penerimaan Peserta Didik Baru Pusat Pendidikan Islam Terpadu Imam Syafi'i yang disingkat PPDB PPITIS ini dilaunching tanggal 1 Januari 2021 di Batam. Aplikasi ini diharapkan mampu menjadi media yang memudahkan masyarakat mendaftarkan secara online anak dan keluarga untuk menuntut ilmu di PPIT Imam Syafi'i." />
+            //
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:background="#ff3f51b5" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal"
+                android:weightSum="6.0">
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.0"
+                    android:text="Developed By : Masparudin,S.Kom"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@drawable/email" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact me : " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="email"
+                    android:text="masfaruddin@programmer.net" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:background="#ff673ab7" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="#58999999" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:text="Version 2.14" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:background="#58999999" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:text="Connect with PPIT Imam Syafi'i" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@drawable/email" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email kami : " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="email"
+                    android:text="info@ppitimamsyafii.sch.id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@drawable/global" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Website kami : " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="www.ppitimamsyafii.sch.id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_yt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@drawable/youtube" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tonton kami : " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:text="bit.ly/2WHe9WB" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="#8f999999" />
+
+            <LinearLayout
+                android:id="@+id/ly_rating_us"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@drawable/playstore" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate us on Playstore" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="#8f999999" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
